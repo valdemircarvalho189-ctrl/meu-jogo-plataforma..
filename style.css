@@ -1,0 +1,61 @@
+```css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #17172b;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ffd447;
+}
+
+#painel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 15px;
+}
+
+#painel span {
+  padding: 10px 16px;
+  background: #30304c;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#mensagem {
+  min-height: 24px;
+  color: #ffe16b;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 15px auto;
+  background: #75d7ff;
+  border: 4px solid white;
+  border-radius: 8px;
+}
+
+button {
+  padding: 12px 22px;
+  margin: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: #ffd447;
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+```
